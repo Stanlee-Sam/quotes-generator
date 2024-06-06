@@ -31,7 +31,7 @@ const App = () => {
       <div className="quote">
         <h3>{quote}</h3>
       </div>
-      <div>
+      <div className = "loader">
         {isLoading ? (
           <ThreeDots color="#00BFFF" height={80} width={80} />
         ) : null}
