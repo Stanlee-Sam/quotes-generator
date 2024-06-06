@@ -1,4 +1,4 @@
-// export default App;
+
 import { useState, useEffect } from "react";
 import { ThreeDots } from "react-loader-spinner";
 
@@ -27,7 +27,7 @@ const App = () => {
 
   return (
     <>
-      <h1>Quotes</h1>
+      <h1>Quotes/Advice</h1>
       <div className="quote">
         <h3>{quote}</h3>
       </div>
